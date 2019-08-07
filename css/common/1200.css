@@ -1,0 +1,66 @@
+.container {
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.head {
+    width: 65%;
+    height: 4rem;
+    margin: 0 auto;
+    /*background: green;*/
+}
+
+.head > div {
+    display: inline-block;
+}
+
+.brand {
+    width: 25%;
+    height: 100%;
+    background: url("/image/logo.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.nav-container {
+    width: 65%;
+    height: 100%;
+    padding-left: 3%;
+}
+
+.nav {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav > li > a {
+    float: left;
+    position: relative;
+    font-size: 1.1rem;
+    font-family: "宋体", Arial, Helvetica, sans-serif;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.nav > li > a > span:last-child {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.3s;
+    font-size: 0.8rem;
+    width: 100%;
+    text-align: center;
+}
+
+.nav > li > a:hover > span:last-child {
+    opacity: 1;
+    transform: translateY(140%);
+}
+
+
+.login {
+    width: 5%;
+    height: 85%;
+    background: url("/image/login.png") no-repeat;
+    background-size: 100% 100%;
+}

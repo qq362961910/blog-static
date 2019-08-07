@@ -1,0 +1,9 @@
+.nav-current-item > span:first-child {
+    color: #e15782;
+}
+.brand:hover {
+    cursor: pointer;
+}
+.login:hover {
+    cursor: pointer;
+}

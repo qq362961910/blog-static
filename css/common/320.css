@@ -1,0 +1,34 @@
+.container {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.head {
+    margin: 0 auto;
+    width: 200rem;
+    background: green;
+}
+
+.head > div {
+    display: inline-block;
+}
+
+.brand {
+    width: 16.25rem;
+    height: 3.75rem;
+    background: url("/image/logo.jpg") no-repeat;
+    background-size: 100% auto;
+}
+
+.nav {
+    padding-left: 4rem;
+    top: 50%;
+}
+
+.login {
+    right: 0;
+    width: 3.125rem;
+    height: 3.125rem;
+    background: url("/image/login.png") no-repeat;
+    background-size: 100% auto;
+}
