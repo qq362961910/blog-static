@@ -1,23 +1,26 @@
+/*整个页面控制*/
 .container {
     width: 100%;
     padding-top: 1rem;
 }
 
+/*中间核心区域控制*/
 .main-div-style {
     width: 65%;
     margin: 0 auto;
 }
 
+/*头部控制*/
 .head {
     height: 4rem;
     white-space: nowrap;
     background: green;
 }
-
 .head > div {
     display: inline-block;
 }
 
+/*头部标志控制*/
 .brand {
     width: 25%;
     height: 100%;
@@ -25,11 +28,13 @@
     background-size: 100% 100%;
 }
 
+/*导航栏控制*/
 .nav-container {
     width: 70%;
     height: 100%;
 }
 
+/*导航栏*/
 .nav {
     width: 80%;
     height: 100%;
@@ -39,11 +44,14 @@
     align-items: center;
 }
 
+/*导航栏item*/
 .nav > li > a {
     position: relative;
     font-size: 1.1rem;
     font-family: "宋体", Arial, Helvetica, sans-serif;
 }
+
+/*导航栏item底部浮动字符*/
 .nav > li > a > span:last-child {
     position: absolute;
     left: 0;
