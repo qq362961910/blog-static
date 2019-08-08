@@ -16,7 +16,7 @@
     padding-bottom: 1rem;
     height: 6rem;
     white-space: nowrap;
-    background: green;
+    /*background: green;*/
 }
 
 /*头部排成一行*/
@@ -65,6 +65,7 @@
     transition: transform 0.5s, opacity 1.5s;
     font-size: 0.8rem;
     text-align: center;
+    z-index: -1;
 }
 
 .nav-item:hover > .nav-item-shadow {
