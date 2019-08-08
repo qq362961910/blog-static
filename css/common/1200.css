@@ -10,8 +10,8 @@
 
 .head {
     height: 4rem;
-    margin: 0 auto;
-    /*background: green;*/
+    white-space: nowrap;
+    background: green;
 }
 
 .head > div {
@@ -26,20 +26,20 @@
 }
 
 .nav-container {
-    width: 65%;
+    width: 70%;
     height: 100%;
-    padding-left: 3%;
 }
 
 .nav {
+    width: 80%;
     height: 100%;
+    padding-left: 5%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 }
 
 .nav > li > a {
-    float: left;
     position: relative;
     font-size: 1.1rem;
     font-family: "宋体", Arial, Helvetica, sans-serif;
