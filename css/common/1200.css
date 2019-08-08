@@ -43,8 +43,6 @@
     position: relative;
     font-size: 1.1rem;
     font-family: "宋体", Arial, Helvetica, sans-serif;
-    margin-left: 1rem;
-    margin-right: 1rem;
 }
 .nav > li > a > span:last-child {
     position: absolute;
