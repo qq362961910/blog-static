@@ -1,7 +1,7 @@
 /*整个页面控制*/
 .container {
     width: 100%;
-    padding-top: 1rem;
+    margin: 0 auto;
 }
 
 /*中间核心区域控制*/
@@ -12,10 +12,14 @@
 
 /*头部控制*/
 .head {
-    height: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: 6rem;
     white-space: nowrap;
     background: green;
 }
+
+/*头部排成一行*/
 .head > div {
     display: inline-block;
 }
@@ -38,7 +42,7 @@
 .nav {
     width: 80%;
     height: 100%;
-    padding-left: 5%;
+    padding-left: 7%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,19 +57,19 @@
 
 /*导航栏item底部浮动字符*/
 .nav-item-shadow {
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     opacity: 0;
     transition: transform 0.5s, opacity 0.3s;
     font-size: 0.8rem;
-    width: 100%;
     text-align: center;
 }
 
 .nav-item:hover > .nav-item-shadow {
     opacity: 1;
-    transform: translateY(140%);
+    transform: translateY(130%);
 }
 
 
