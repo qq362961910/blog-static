@@ -45,15 +45,16 @@
 }
 
 /*导航栏item*/
-.nav > li > a {
+.nav-item {
     position: relative;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: "宋体", Arial, Helvetica, sans-serif;
 }
 
 /*导航栏item底部浮动字符*/
-.nav > li > a > span:last-child {
+.nav-item-shadow {
     position: absolute;
+    top: 0;
     left: 0;
     opacity: 0;
     transition: transform 0.5s, opacity 0.3s;
@@ -62,7 +63,7 @@
     text-align: center;
 }
 
-.nav > li > a:hover > span:last-child {
+.nav-item:hover > .nav-item-shadow {
     opacity: 1;
     transform: translateY(140%);
 }
