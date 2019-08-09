@@ -85,7 +85,7 @@
 
 .main {
     width: 100%;
-    margin-top: 0.5rem;
+    margin: 0 auto;
 }
 
 .banner {
@@ -95,11 +95,42 @@
     background-size: 100% 100%;
 }
 
-.slogan {
-    width: 20%;
-    height: 5.5rem;
+.banner-body {
+    height: 100%;
+}
+
+.banner-body-left {
+    float: left;
+    width: 50%;
+    height: 100%;
     overflow: hidden;
-    font: 12px "����", Arial, Helvetica, sans-serif;
+}
+
+.banner-body-right {
+    float: right;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slogan {
+    position: relative;
+    width: 60%;
+    height: 5.5rem;
+    top: 25%;
+    left: 15%;
+    overflow: hidden;
+    font-size: 0.8rem;
+}
+
+.owner-avatar {
+    position: relative;
+    width: 25%;
+    padding-top: 25%;
+    top: 15%;
+    left: 60%;
+    border: #FFF 4px solid;
+    border-radius: 100%;
 }
 
 .top-recommend {
