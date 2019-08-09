@@ -145,13 +145,31 @@
     height: 1.5rem;
     font-size: 0.8rem;
     text-align: center;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .4);
     transition: transform 0.3s;
 }
 
 .top-recommend {
     height: 11rem;
+    padding-top: 1rem;
     background-color: #F1F0EE;
+}
+
+.top-recommend-title {
+    padding-left: 0.8rem;
+    border-bottom: white solid 1px;
+}
+
+.top-recommend-title p {
+    width: 14rem;
+    text-align: center;
+    color: white;
+    background: #474645;
+    box-shadow: #999 0.22rem 0.2rem 0.1rem;
+}
+
+.top-recommend-title p > span {
+    color: #38b3d4;
 }
 
 .recommend-body {
