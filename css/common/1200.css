@@ -173,6 +173,7 @@
     width: 11.25rem;
     line-height: 1.5rem;
     font-size: 0.875rem;
+    font-weight: bold;
     text-align: center;
     color: white;
     background: #474645;
@@ -181,6 +182,40 @@
 
 .top-recommend-title p > span {
     color: #38b3d4;
+}
+
+.top-recommend-item-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: 1rem 0.8rem 0 0.8rem;
+}
+
+.top-recommend-item {
+    width: 16.666%;
+    height: 6rem;
+    margin: 0 0.7rem;
+    background-color: white;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+}
+
+.top-recommend-item-img-container {
+    height: 100%;
+    padding: 0.3rem;
+}
+
+.top-recommend-item-img-container > a {
+    display: block;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.top-recommend-item > p {
+    font-size: 0.7rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .recommend-body {

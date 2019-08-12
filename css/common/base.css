@@ -18,8 +18,10 @@ div {
 }
 
 li {
+    box-sizing: border-box;
     list-style-type: none;
 }
+
 a{
     text-decoration: none;
     color: black;
