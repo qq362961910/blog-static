@@ -159,7 +159,7 @@
 
 
 .top-recommend {
-    height: 11rem;
+    height: 13rem;
     padding-top: 1rem;
     background-color: #F1F0EE;
 }
@@ -194,14 +194,26 @@
 
 .top-recommend-item {
     width: 16.666%;
-    height: 6rem;
-    margin: 0 0.7rem;
+    height: 8rem;
+    padding: 0.3rem 0.3rem 1.6rem 0.3rem;
     background-color: white;
-    box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 2px rgba(0, 0, 0, .6);
+}
+
+.top-recommend-item > p {
+    display: none;
+}
+
+.top-recommend-item:hover {
+    background-color: #756F71;
+}
+.top-recommend-item:hover > p {
+    display: block;
 }
 
 .top-recommend-item-img-container {
     height: 100%;
+    background-color: white;
     padding: 0.3rem;
 }
 
@@ -212,7 +224,8 @@
 }
 
 .top-recommend-item > p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+    text-align: center;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
