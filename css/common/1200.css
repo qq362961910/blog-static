@@ -159,13 +159,13 @@
 
 
 .top-recommend {
-    height: 13rem;
+    height: 12rem;
     padding-top: 1rem;
     background-color: #F1F0EE;
 }
 
 .top-recommend-title {
-    padding-left: 0.8rem;
+    padding: 0 0.8rem;
     border-bottom: white solid 1px;
 }
 
@@ -189,47 +189,43 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    padding: 1rem 0.8rem 0 0.8rem;
+    box-sizing: border-box;
+    padding: 1rem 0.4rem 0 0.4rem;
 }
 
 .top-recommend-item {
     width: 16.666%;
     height: 8rem;
     padding: 0.3rem 0.3rem 1.6rem 0.3rem;
-    background-color: white;
-    box-shadow: 0 0 2px rgba(0, 0, 0, .6);
-}
-
-.top-recommend-item > p {
-    display: none;
+    transition: all 1s;
 }
 
 .top-recommend-item:hover {
     background-color: #756F71;
 }
-.top-recommend-item:hover > p {
-    display: block;
-}
 
 .top-recommend-item-img-container {
-    height: 100%;
+    height: 6rem;
     background-color: white;
-    padding: 0.3rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+    padding: 0.25rem;
 }
 
-.top-recommend-item-img-container > a {
-    display: block;
+.top-recommend-item-img-container > img {
+    width: 100%;
     height: 100%;
-    border: 1px solid rgba(0, 0, 0, .2);
 }
 
-.top-recommend-item > p {
-    font-size: 0.9rem;
+.top-recommend-item-description {
+    color: #F1F0EE;
+    font-size: 0.8rem;
+    line-height: 1.8rem;
     text-align: center;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
 }
+
 
 .recommend-body {
     height: 600px;
