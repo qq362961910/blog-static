@@ -135,11 +135,11 @@
     background-size: 100% 100%;
 }
 
-.owner-avatar-description:hover > span {
+.owner-avatar-link:hover > span {
     transform: translateY(-2rem);
 }
 
-.owner-avatar-description {
+.owner-avatar-link {
     position: absolute;
     top: 0;
     left: 0;
@@ -147,11 +147,11 @@
     padding-top: 100%;
 }
 
-.owner-avatar-description > span {
+.owner-avatar-link > span {
     display: block;
     text-align: center;
     color: white;
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 2rem;
     background: rgba(0, 0, 0, .4);
     transition: transform 0.3s;
