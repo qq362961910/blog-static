@@ -115,12 +115,14 @@
 
 .slogan {
     position: relative;
-    width: 60%;
+    width: 70%;
     height: 5.5rem;
     top: 25%;
     left: 15%;
     overflow: hidden;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    color: #756F71;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8), 2px 2px 3px rgba(180, 151, 151, 0.3);
 }
 
 .owner-avatar {
@@ -278,23 +280,62 @@
 
 .article-item {
     padding: 1rem 1rem;
-    /*background-color: aliceblue;*/
 }
 
 .article-item-title {
     margin: 0.5rem 0;
 }
 
-.article-item-img {
-    width: 22%;
+.article-item-description-container {
+    width: 100%;
     height: 6rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.article-item-img > img {
-    padding: 0.4rem;
-    border: #f4f2f2 1px solid;
+.article-item-description-img {
+    width: 22%;
+    height: 100%;
+    padding: 0.25rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .5);
 }
 
+.article-item-description-img > img {
+    width: 100%;
+    height: 100%;
+}
+
+.article-item-description-txt {
+    position: relative;
+    width: 78%;
+    height: 100%;
+}
+
+.article-item-description-txt > p {
+    color: #756F71;
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    text-indent: 2rem;
+    max-height: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.article-item-description-txt > a {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #f90;
+    color: white;
+    font-size: 0.8rem;
+    padding: 0.2rem;
+    float: right;
+}
 
 
 /****************************************************************************************************************************************/
