@@ -12,6 +12,10 @@ html {
     font-size: 16px;
 }
 
+body {
+    counter-reset: slogan-lines;
+}
+
 div {
     box-sizing: border-box;
     overflow: hidden;
