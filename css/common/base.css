@@ -13,7 +13,6 @@ html {
 }
 
 body {
-    counter-reset: slogan-lines;
 }
 
 div {
