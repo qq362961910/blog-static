@@ -313,17 +313,6 @@
     width: 70%;
 }
 
-.article-recommend-body-separator {
-    float: left;
-    width: 3%;
-    background: url("/image/bg_v_line.jpg") repeat-y center;
-}
-
-.article-recommend-body-right {
-    float: left;
-    width: 27%;
-}
-
 .article-container {
     width: 100%;
 }
@@ -414,6 +403,154 @@
 .article-item-author-info > span > a {
     color: #099B43;
 }
+
+.article-recommend-body-separator {
+    float: left;
+    width: 3%;
+    background: url("/image/bg_v_line.jpg") repeat-y center;
+}
+
+.article-recommend-body-right {
+    float: left;
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+}
+
+.weather-container {
+    width: 90%;
+    margin: 1rem auto 0 auto;
+    border-radius: 0.4rem;
+    background-color: cornsilk;
+    box-shadow: 0.3rem 0.3rem 0.4rem grey;
+}
+.weather {
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+
+.latest-article-container {
+    width: 100%;
+}
+
+.latest-article-content-container {
+    padding-top: 2.5rem;
+}
+
+.latest-article-title {
+    font-size: 1rem;
+    font-weight: bold;
+    background: url("/image/r_title_bg.jpg") repeat-x center;
+}
+
+.latest-article-title > span {
+    display: inline-block;
+    width: 3rem;
+    background: white;
+}
+
+.latest-article-title >span {
+    color: #65b020;
+}
+
+.latest-article-list {
+    width: 100%;
+    padding-top: 0.5rem;
+}
+
+.latest-article-item {
+    padding-left: 1rem;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    height: 1.5rem;
+    overflow: hidden;
+    background: url("/image/li.jpg") no-repeat left center;
+}
+
+.click-rank-content-container {
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.click-rank-title {
+    font-size: 1rem;
+    font-weight: bold;
+    background: url("/image/r_title_bg.jpg") repeat-x center;
+}
+
+.click-rank-title > span {
+    display: inline-block;
+    width: 3rem;
+    background: white;
+}
+
+.click-rank-title >span {
+    color: #37ccca;
+}
+
+.click-rank-list {
+    width: 100%;
+    padding-top: 0.5rem;
+    background: url("/image/ph.jpg") no-repeat left 1rem;
+}
+
+.click-rank-item {
+    padding-left: 2rem;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    height: 2rem;
+    overflow: hidden;
+    border-bottom: #CCC dotted 1px;
+}
+
+
+.friend-link-content-container {
+    width: 100%;
+}
+
+.friend-link-content-container {
+    padding-top: 2.5rem;
+}
+
+.friend-link-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.friend-link-title > span {
+    display: inline-block;
+    width: 3rem;
+    background: white;
+}
+
+.friend-link-title >span {
+    color: #37ccca;
+}
+
+.friend-link-list {
+    width: 100%;
+    padding-top: 0.5rem;
+    background: #F3F3F3;
+    border-radius: 50%;
+}
+
+.friend-link-item {
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    overflow: hidden;
+}
+
+
+.two-dimension-container {
+    padding-top: 1rem;
+}
+
+.two-dimension {
+    max-width: 16rem;
+}
+
+
 
 
 /****************************************************************************************************************************************/
