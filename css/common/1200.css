@@ -19,13 +19,14 @@
     height: 100%;
     padding-top: 0.6rem;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 /*头部标志控制*/
 .brand {
     width: 23%;
-    height: 100%;
     background: url("/image/logo.jpg") no-repeat;
     background-size: 100% 100%;
 }
@@ -33,7 +34,6 @@
 /*导航栏控制*/
 .nav-container {
     width: 72%;
-    height: 100%;
 }
 
 /*导航栏*/
@@ -74,7 +74,6 @@
 
 .login {
     width:5%;
-    height: 100%;
     background: url("/image/login.png") no-repeat right center;
     background-size: 100% 85%;
 }
