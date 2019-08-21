@@ -24,7 +24,7 @@
 
 /*头部标志控制*/
 .brand {
-    width: 24%;
+    width: 23%;
     height: 100%;
     background: url("/image/logo.jpg") no-repeat;
     background-size: 100% 100%;
@@ -32,7 +32,7 @@
 
 /*导航栏控制*/
 .nav-container {
-    width: 70%;
+    width: 72%;
     height: 100%;
 }
 
@@ -73,10 +73,10 @@
 
 
 .login {
-    width: 5%;
-    height: 85%;
-    background: url("/image/login.png") no-repeat;
-    background-size: 100% 100%;
+    width:5%;
+    height: 100%;
+    background: url("/image/login.png") no-repeat right center;
+    background-size: 100% 85%;
 }
 
 /****************************************************************************************************************************************/
