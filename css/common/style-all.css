@@ -1,42 +1,10 @@
+@import "/css/common/base-css.css";
 @import "/css/common/1200.css" screen and (min-device-width: 1200px);
 @import "/css/common/992.css" screen and (min-device-width: 992px) and (max-device-width: 1199px);
 @import "/css/common/768.css" screen and (min-device-width: 768px) and (max-device-width: 991px);
 @import "/css/common/320.css" screen and (max-device-width: 767px);
 
-* {
-    margin: 0;
-    padding: 0;
-}
 
-html {
-    font-size: 16px;
-}
-
-body {
-}
-
-div {
-    box-sizing: border-box;
-    overflow: hidden;
-}
-
-li {
-    box-sizing: border-box;
-    list-style-type: none;
-}
-
-figure {
-    box-sizing: border-box;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
-
-.clear-both {
-    clear: both;
-}
 
 @media screen and (min-device-width: 1200px) {
 
