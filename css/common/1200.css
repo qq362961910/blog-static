@@ -1,3 +1,4 @@
+@import "/css/common/1200-var.css";
 /*整个页面控制*/
 .container {
     width: 100%;
@@ -37,12 +38,14 @@
 }
 
 /*导航栏*/
-.nav {
+.nav-content-container {
     width: 80%;
     height: 100%;
-    padding-left: 9%;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -50,7 +53,7 @@
 .nav-item {
     position: relative;
     font-size: 1.2rem;
-    font-family: "宋体", Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*导航栏item底部浮动字符*/
@@ -68,7 +71,7 @@
 
 .nav-item:hover > .nav-item-shadow {
     opacity: 1;
-    transform: translateY(130%);
+    transform: translateY(1.5rem);
 }
 
 
