@@ -39,13 +39,13 @@
 
 /*导航栏*/
 .nav-content-container {
-    width: 80%;
+    width: 75%;
     height: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -53,7 +53,7 @@
 .nav-item {
     position: relative;
     font-size: var(--nav-item-font-size);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "宋体", Arial, Helvetica, sans-serif;
 }
 
 /*导航栏item底部浮动字符*/
@@ -61,7 +61,6 @@
     width: 100%;
     position: absolute;
     top: 0;
-    left: 0;
     opacity: 0;
     transition: transform 0.5s, opacity 1.5s;
     font-size: 0.8rem;
