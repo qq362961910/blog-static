@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
     <title>测试</title>
     <style>
-        div {
-            box-sizing: border-box;
+        .nav > li > input[type=radio]:checked ~ p:nth-child(2) {
+            color: #e15782;
         }
     </style>
 </head>
 <body>
-<div style="width:50%; margin: 0 auto; height: 200px; background-color: #38b3d4; display: flex; flex-wrap: wrap; overflow: hidden; word-break: break-all">
-    <div style="; background-color: #e15782; flex-grow: 23; flex-basis: 0;">
-        1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
-    </div>
-    <div style="; background-color: yellow; flex-grow: 72; flex-basis: 0;">
-        22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
-    </div>
-    <div style="; background-color: #e15782; flex-grow: 5; flex-basis: 0;">
-        333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
-    </div>
-</div>
-
+<ul class="nav">
+    <li>
+        <input type="radio" name="test">
+        <p>菜单1</p>
+    </li>
+    <li>
+        <input type="radio" name="test">
+        <p>菜单1</p>
+    </li>
+    <li>
+        <input type="radio" name="test">
+        <p>菜单1</p>
+    </li>
+    <li>
+        <input type="radio" name="test">
+        <p>菜单1</p>
+    </li>
+</ul>
 </body>
 </html>
