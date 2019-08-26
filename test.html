@@ -3,72 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>测试</title>
+    <link href="/css/common/base-css.css" rel="stylesheet"/>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        ul {
-            box-sizing: border-box;
-        }
         li {
-            box-sizing: border-box;
-            list-style-type: none;
-        }
-        .nav {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .nav > li > input[type=radio] {
-            display: none;
-        }
-        .nav > li > input[type=radio]:checked ~ label:nth-child(2) {
-            color: #e15782;
-        }
-        .nav > li > div.nav-content {
-            display: none;
-        }
-        .nav > li > input[type=radio]:checked ~ :nth-child(3) {
-           display: block;
-        }
-        .nav-content {
-            position: absolute;
             width: 100%;
-            height: 100%;
-            left: 0;
-            background-color: #38b3d4;
+            height: 5rem;
         }
-
 
     </style>
 </head>
 <body>
-
-<ul class="nav">
-    <li>
-        <input type="radio" id="m1" name="navigation">
-        <label for="m1">菜单1</label>
-        <div class="nav-content">菜单1</div>
-    </li>
-    <li>
-        <input type="radio" id="m2" name="navigation">
-        <label for="m2">菜单2</label>
-        <div class="nav-content">菜单2</div>
-    </li>
-    <li>
-        <input type="radio" id="m3" name="navigation">
-        <label for="m3">菜单3</label>
-        <div class="nav-content">菜单3</div>
-    </li>
-    <li>
-        <input type="radio" id="m4" name="navigation">
-        <label for="m4">菜单4</label>
-        <div class="nav-content">菜单4</div>
-    </li>
-</ul>
+<div style="width: 60%; height: 10rem; background-color: #756F71; margin: 0 auto;">
+    <ul style="display: flex; flex-wrap: nowrap; flex-direction: row; justify-content: space-between">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+</div>
 
 
 </body>

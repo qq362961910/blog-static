@@ -253,19 +253,21 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-start;
-    box-sizing: border-box;
+    justify-content: space-between;
     padding: 1rem 0.4rem 0 0.4rem;
 }
 
-.top-recommend-item {
-    width: 16.666%;
+.top-recommend-item-container > li {
+    flex-grow: 1;
+    flex-basis: 0;
+    width: 100%;
     height: 8rem;
     padding: 0.3rem 0.3rem 1.6rem 0.3rem;
+    overflow: hidden;
     transition: all 1s;
 }
 
-.top-recommend-item:hover {
+.top-recommend-item-container > li:hover {
     background-color: #756F71;
 }
 
