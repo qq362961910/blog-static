@@ -109,7 +109,6 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: center;
     word-break: break-all;
 }
 
@@ -124,7 +123,6 @@
 }
 
 .slogan {
-    position: relative;
     width: 100%;
     height: 100%;
     padding-top: 5rem;
@@ -189,7 +187,7 @@
     position: relative;
     width: 25%;
     padding-top: 23%;
-    top: 15%;
+    top: 20%;
     left: 60%;
     border: #FFF 4px solid;
     border-radius: 100%;
@@ -220,10 +218,14 @@
 }
 
 
-.top-recommend {
+.top-recommend-container {
     height: 12rem;
-    padding-top: 1rem;
     background-color: #F1F0EE;
+}
+
+.top-recommend-content-container {
+    height: 100%;
+    padding-top: 1rem;
 }
 
 .top-recommend-title {
@@ -232,7 +234,8 @@
 }
 
 .top-recommend-title p {
-    width: 11.25rem;
+    display: inline-block;
+    padding: 0 1rem;
     line-height: 1.5rem;
     font-size: 0.875rem;
     font-weight: bold;
