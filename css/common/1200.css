@@ -548,16 +548,16 @@
 .friend-link-title {
     font-size: 1rem;
     font-weight: bold;
+    background: url("/image/r_title_bg.jpg") repeat-x center;
 }
 
-.friend-link-title > span {
-    display: inline-block;
-    width: 3rem;
+.friend-link-title > p {
+    width: 5rem;
     background: white;
 }
 
-.friend-link-title >span {
-    color: #37ccca;
+.friend-link-title > p > span {
+    color: #F17B6B;
 }
 
 .friend-link-list {
@@ -572,6 +572,10 @@
     font-size: 0.8rem;
     line-height: 1.5rem;
     overflow: hidden;
+}
+
+.friend-link-item > a:hover {
+    text-decoration: underline;
 }
 
 
