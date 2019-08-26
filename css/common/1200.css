@@ -394,8 +394,11 @@
 }
 
 .article-item-author-info-container {
-    position: relative;
-    bottom: -0.5rem;
+    width: 100%;
+}
+
+.article-item-author-info-content-container {
+    margin-top: 0.5rem;
 }
 
 .article-item-author-info {
